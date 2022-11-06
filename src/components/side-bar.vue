@@ -17,7 +17,8 @@
         flex
         items-center
         opacity-80
-        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
+        transition-opacity
+        hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon class="text-center" name="library-shelves" size="24"></mdicon>
@@ -28,11 +29,12 @@
         flex
         items-center
         opacity-80
-        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
+        transition-opacity
+        hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon
-        class="text-center text-green-400"
+        class="text-center text-sky-400"
         name="plus-box"
         size="24"
       ></mdicon>
@@ -43,7 +45,8 @@
         flex
         items-center
         opacity-80
-        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
+        transition-opacity
+        hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon
@@ -53,6 +56,23 @@
       ></mdicon>
       <a class="pl-2">Liked Songs</a>
     </div>
+    <div
+      class="
+        flex
+        items-center
+        opacity-80
+        transition-opacity
+        hover:cursor-pointer hover:opacity-100
+      "
+    >
+      <mdicon
+        class="text-center text-emerald-400"
+        name="bookmark-box"
+        size="24"
+      ></mdicon>
+      <a class="pl-2">Your Episodes</a>
+    </div>
+    <div class="h-px bg-zinc-700 mr-6"></div>
   </div>
 </template>
 

@@ -12,8 +12,9 @@
           border border-transparent
           bg-zinc-800
           p-2
+          transition-colors
           text-zinc-300
-          hover:text-zinc-100 hover:border-zinc-300
+          hover:text-zinc-50 hover:border-zinc-50
         "
       >
         <mdicon class="text-center" name="home-outline" size="32"></mdicon>
@@ -26,8 +27,9 @@
           border border-transparent
           bg-zinc-800
           text-zinc-300
-          hover:border-zinc-300 hover:text-zinc-100
-          focus-within:border-zinc-300 focus-within:text-zinc-100
+          transition-colors
+          hover:border-zinc-50 hover:text-zinc-50
+          focus-within:border-zinc-50 focus-within:text-zinc-50
         "
       >
         <mdicon
@@ -37,7 +39,7 @@
         ></mdicon>
         <input
           type="text"
-          class="bg-transparent p-3 pl-0 w-80 text-zinc-300 focus:outline-0"
+          class="bg-transparent p-3 pl-0 w-80 text-zinc-50 focus:outline-0"
           placeholder="What do you want to listen to?"
         />
       </label>
@@ -51,6 +53,7 @@
           items-center
           rounded-full
           border border-transparent
+          transition-colors
           hover:border-zinc-300 hover:cursor-pointer
           action:bg-zinc-700
         "
@@ -83,10 +86,10 @@
         "
         v-if="profileDropdown"
       >
-        <a href="#" class="pl-1 hover:bg-zinc-700 rounded-md">Profile</a>
-        <a href="#" class="pl-1 hover:bg-zinc-700 rounded-md">Settings</a>
-        <a href="#" class="pl-1 hover:bg-zinc-700 rounded-md">Friends</a>
-        <a href="#" class="pl-1 hover:bg-zinc-700 rounded-md">Log out</a>
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Profile</a>
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Settings</a>
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Friends</a>
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Log out</a>
       </div>
     </div>
   </div>
