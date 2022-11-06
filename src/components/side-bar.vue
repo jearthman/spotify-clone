@@ -7,17 +7,17 @@
       bg-black
       w-1/5
       h-full
-      text-slate-50
+      text-zinc-50
       pt-4
+      pl-6
     "
   >
     <div
       class="
         flex
         items-center
-        pl-4
         opacity-80
-        hover:text-slate-50 hover:cursor-pointer hover:opacity-100
+        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon class="text-center" name="library-shelves" size="24"></mdicon>
@@ -27,9 +27,8 @@
       class="
         flex
         items-center
-        pl-4
         opacity-80
-        hover:text-slate-50 hover:cursor-pointer hover:opacity-100
+        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon
@@ -43,9 +42,8 @@
       class="
         flex
         items-center
-        pl-4
         opacity-80
-        hover:text-slate-50 hover:cursor-pointer hover:opacity-100
+        hover:text-zinc-50 hover:cursor-pointer hover:opacity-100
       "
     >
       <mdicon
