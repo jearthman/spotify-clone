@@ -1,8 +1,15 @@
+<script lang="ts" setup>
+import { ref } from "vue";
+
+const avi = ref("galaxybrain.png");
+const profileDropdown = ref(false);
+</script>
+
 <template>
   <div class="flex w-full justify-between bg-black p-2">
     <div class="flex items-center pl-4">
       <img src="media/spotify.png" class="w-10 rounded-full rotate-180" />
-      <span class="text-white text-xl pl-2 font-semibold ">Spoofify</span>
+      <span class="text-white text-xl pl-2 font-semibold">Spoofify</span>
     </div>
     <div class="flex items-center">
       <button
@@ -86,23 +93,19 @@
         "
         v-if="profileDropdown"
       >
-        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Profile</a>
-        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Settings</a>
-        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Friends</a>
-        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md">Log out</a>
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md"
+          >Profile</a
+        >
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md"
+          >Settings</a
+        >
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md"
+          >Friends</a
+        >
+        <a href="#" class="pl-1 transition-colors hover:bg-zinc-700 rounded-md"
+          >Log out</a
+        >
       </div>
     </div>
   </div>
 </template>
-
-<script lang="ts">
-export default {
-  name: "TopNav",
-  data() {
-    return {
-      avi: "galaxybrain.png",
-      profileDropdown: false,
-    };
-  },
-};
-</script>

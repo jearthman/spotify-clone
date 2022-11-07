@@ -1,3 +1,7 @@
+<script lang="ts" setup>
+import RouteList from "./route-list.vue";
+</script>
+
 <template>
   <div
     class="
@@ -73,14 +77,6 @@
       <a class="pl-2">Your Episodes</a>
     </div>
     <div class="h-px bg-zinc-700 mr-6"></div>
+    <RouteList />
   </div>
 </template>
-
-<script lang="ts">
-export default {
-  name: "SideBar",
-  data() {
-    return {};
-  },
-};
-</script>
